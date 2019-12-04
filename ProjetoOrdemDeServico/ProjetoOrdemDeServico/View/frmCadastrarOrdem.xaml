@@ -1,0 +1,52 @@
+﻿<Window x:Class="ProjetoOrdemDeServico.View.frmCadastrarOrdem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoOrdemDeServico.View"
+        mc:Ignorable="d"
+        Title="Ordem de Serviço" Height="594" WindowStartupLocation="CenterScreen" Width="1273.636">
+    <Grid Loaded="Grid_Loaded">
+        <Label Content="Processador" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="121"/>
+        <ComboBox Name="cboProcessador" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="151"/>
+        <Label Content="Placa mãe" HorizontalAlignment="Left" Margin="192,10,0,0" VerticalAlignment="Top" Width="103"/>
+        <ComboBox Name="cboPlacaMae" HorizontalAlignment="Left" Margin="192,41,0,0" VerticalAlignment="Top" Width="151"/>
+        <Label Content="Memoria" HorizontalAlignment="Left" Margin="376,10,0,0" VerticalAlignment="Top" Width="95"/>
+        <ComboBox Name="cboMemoria" HorizontalAlignment="Left" Margin="376,41,0,0" VerticalAlignment="Top" Width="151"/>
+        <Label Content="Placa de video" HorizontalAlignment="Left" Margin="557,10,0,0" VerticalAlignment="Top" Width="140"/>
+        <ComboBox Name="cboPlacaVideo" HorizontalAlignment="Left" Margin="557,41,0,0" VerticalAlignment="Top" Width="151"/>
+        <Label Content="HD" HorizontalAlignment="Left" Margin="743,10,0,0" VerticalAlignment="Top" Width="45"/>
+        <ComboBox Name="cboHd" HorizontalAlignment="Left" Margin="743,41,0,0" VerticalAlignment="Top" Width="152"/>
+        <Label Content="SSD" HorizontalAlignment="Left" Margin="921,10,0,0" VerticalAlignment="Top" Width="51"/>
+        <ComboBox Name="cboSsd" HorizontalAlignment="Left" Margin="921,41,0,0" VerticalAlignment="Top" Width="151"/>
+        <Button Content="Incluir" HorizontalAlignment="Left" Margin="1126,41,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click"/>
+        <DataGrid x:Name="dtaLiberar" CanUserAddRows="False" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="174" Margin="10,133,0,0" VerticalAlignment="Top" Width="1239">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Numero OS" Width="100" Binding="{Binding OrdemId }"/>
+                <DataGridTextColumn Header="Processador" Width="189" Binding="{Binding Processador.Produto.Descricao }"/>
+                <DataGridTextColumn Header="Placa Mãe" Width="189" Binding="{Binding PlacaMae.Produto.Descricao }"/>
+                <DataGridTextColumn Header="Memória" Width="189" Binding="{Binding Memoria.Produto.Descricao }"/>
+                <DataGridTextColumn Header="Placa de vídeo" Width="189" Binding="{Binding PlacaVideo.Produto.Descricao }"/>
+                <DataGridTextColumn Header="HD" Width="189" Binding="{Binding Hd.Produto.Descricao }"/>
+                <DataGridTextColumn Header="SSD" Width="189" Binding="{Binding Ssd.Produto.Descricao }"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="dtaLiberada" CanUserAddRows="False" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="174" Margin="10,366,0,0" VerticalAlignment="Top" Width="1239">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Numero OS" Width="100" Binding="{Binding OrdemId }"/>
+                <DataGridTextColumn Header="Processador" Width="100" Binding="{Binding Processador.Produto.Descricao }"/>
+                <DataGridTextColumn Header="Placa Mãe" Width="150" Binding="{Binding PlacaMae.Produto.Descricao }"/>
+                <DataGridTextColumn Header="Memória" Width="150" Binding="{Binding Memoria.Produto.Descricao }"/>
+                <DataGridTextColumn Header="Placa de vídeo" Width="150" Binding="{Binding PlacaVideo.Produto.Descricao }"/>
+                <DataGridTextColumn Header="HD" Width="120" Binding="{Binding Hd.Produto.Descricao }"/>
+                <DataGridTextColumn Header="SSD" Width="100" Binding="{Binding Ssd.Produto.Descricao }"/>
+                <DataGridTextColumn Header="Inicio Produção" Width="100" Binding="{Binding InicioProducao }"/>
+                <DataGridTextColumn Header="Termino Produção" Width="110" Binding="{Binding TerminoProducao }"/>
+                <DataGridTextColumn Header="Aprovado Por" Width="150" Binding="{Binding Funcionario.Nome }"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="OS há liberar" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="OS liberadas" HorizontalAlignment="Left" Margin="10,333,0,0" VerticalAlignment="Top" Height="27"/>
+
+    </Grid>
+</Window>

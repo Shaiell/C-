@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProjetoOrdemDeServico.View.frmCadastroProduto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoOrdemDeServico.View"
+        mc:Ignorable="d"
+        Title="Cadastro de Produto" Height="207.818" Width="278">
+    <Grid Loaded="Grid_Loaded">
+        <Label Content="Descrição:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Valor:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Categoria" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDescricao" HorizontalAlignment="Left" Height="23" Margin="109,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtValor" HorizontalAlignment="Left" Height="23" Margin="109,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cboCategoriaCadastro" HorizontalAlignment="Left" Margin="109,72,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Cadastrar" HorizontalAlignment="Left" Margin="154,121,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>

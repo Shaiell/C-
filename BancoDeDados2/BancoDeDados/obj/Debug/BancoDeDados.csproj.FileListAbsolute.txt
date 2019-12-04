@@ -1,0 +1,16 @@
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\bin\Debug\BancoDeDados.exe.config
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\bin\Debug\BancoDeDados.exe
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\bin\Debug\BancoDeDados.pdb
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\bin\Debug\EntityFramework.dll
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\bin\Debug\EntityFramework.xml
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.csprojAssemblyReference.cache
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.csproj.CoreCompileInputs.cache
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.csproj.CopyComplete
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.exe
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.pdb
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.Migrations.primeiramigracao.resources
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.csproj.GenerateResource.cache
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.Migrations.tabelaMigracao.resources
+C:\Users\jclri\Desktop\C#\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.Migrations.novoup.resources

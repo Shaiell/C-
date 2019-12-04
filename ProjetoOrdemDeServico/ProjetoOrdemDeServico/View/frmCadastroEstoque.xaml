@@ -1,0 +1,35 @@
+﻿<Window x:Class="ProjetoOrdemDeServico.View.frmCadastroEstoque"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoOrdemDeServico.View"
+        mc:Ignorable="d"
+        Title="Cadastro de estoque" Height="450" Width="825.5" WindowStartupLocation="CenterScreen">
+    <Grid RenderTransformOrigin="0.503,0.537" Loaded="Grid_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Categoria:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="cboCategoria" HorizontalAlignment="Left" Margin="14,41,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CboCategoria_SelectionChanged"/>
+        <Label Content="Produto:" HorizontalAlignment="Left" Margin="177,10,-100,0" VerticalAlignment="Top"/>
+        <ComboBox Name="cboProduto" HorizontalAlignment="Left" Margin="177,41,-164,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Quantidade:" HorizontalAlignment="Left" Margin="329,10,-192,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtQuantidade" HorizontalAlignment="Left" Height="23" Margin="329,41,-238,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Lote:" HorizontalAlignment="Left" Margin="496,10,-281,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLote" HorizontalAlignment="Left" Height="23" Margin="496,41,-363,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Adicionar" HorizontalAlignment="Left" Margin="667,41,-486,0" VerticalAlignment="Top" Width="75" Click="SalvarEstoque"/>
+        <Button Content="Excluir" HorizontalAlignment="Left" Margin="667,370,-482,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <DataGrid x:Name="dtGridEstoque" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="296" Margin="10,69,-519,0" VerticalAlignment="Top" Width="772" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Categoria" Width="154" Binding="{Binding Produto.Categoria.Nome}"/>
+                <DataGridTextColumn Header="Produto" Width="154" Binding="{Binding Produto.Descricao}"/>
+                <DataGridTextColumn Header="Quantidade" Width="154" Binding="{Binding Quantidade}"/>
+                <DataGridTextColumn Header="Lote" Width="154" Binding="{Binding Lote}" />
+                <DataGridTextColumn Header="Data de entrada" Width="154" Binding="{Binding DataEntrada}" />
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+    </Grid>
+</Window>

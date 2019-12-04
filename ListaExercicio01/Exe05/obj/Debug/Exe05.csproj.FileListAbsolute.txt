@@ -1,0 +1,7 @@
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe05\bin\Debug\Exe05.exe.config
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe05\bin\Debug\Exe05.exe
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe05\bin\Debug\Exe05.pdb
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe05\obj\Debug\Exe05.csprojAssemblyReference.cache
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe05\obj\Debug\Exe05.csproj.CoreCompileInputs.cache
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe05\obj\Debug\Exe05.exe
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe05\obj\Debug\Exe05.pdb

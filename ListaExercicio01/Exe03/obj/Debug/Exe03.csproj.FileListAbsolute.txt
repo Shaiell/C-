@@ -1,0 +1,6 @@
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe03\bin\Debug\Exe03.exe.config
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe03\bin\Debug\Exe03.exe
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe03\bin\Debug\Exe03.pdb
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe03\obj\Debug\Exe03.csproj.CoreCompileInputs.cache
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe03\obj\Debug\Exe03.exe
+C:\Users\jclri\Desktop\C#\ListaExercicio01\Exe03\obj\Debug\Exe03.pdb

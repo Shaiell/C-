@@ -1,0 +1,15 @@
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\bin\Debug\Wpfaula1.exe.config
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\bin\Debug\Wpfaula1.exe
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\bin\Debug\Wpfaula1.pdb
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\Wpfaula1.csprojAssemblyReference.cache
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\View\frmPrincipal.g.cs
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\App.g.cs
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\Wpfaula1_MarkupCompile.cache
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\Wpfaula1_MarkupCompile.lref
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\View\frmPrincipal.baml
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\Wpfaula1.g.resources
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\Wpfaula1.Properties.Resources.resources
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\Wpfaula1.csproj.GenerateResource.cache
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\Wpfaula1.csproj.CoreCompileInputs.cache
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\Wpfaula1.exe
+C:\Users\jclri\Desktop\C#\Wpfaula1\Wpfaula1\obj\Debug\Wpfaula1.pdb

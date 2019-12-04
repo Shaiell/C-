@@ -1,0 +1,7 @@
+C:\Users\jclri\Desktop\C#\ProjetoVendas\VendasConsole\bin\Debug\VendasConsole.exe.config
+C:\Users\jclri\Desktop\C#\ProjetoVendas\VendasConsole\bin\Debug\VendasConsole.exe
+C:\Users\jclri\Desktop\C#\ProjetoVendas\VendasConsole\bin\Debug\VendasConsole.pdb
+C:\Users\jclri\Desktop\C#\ProjetoVendas\VendasConsole\obj\Debug\VendasConsole.csprojAssemblyReference.cache
+C:\Users\jclri\Desktop\C#\ProjetoVendas\VendasConsole\obj\Debug\VendasConsole.csproj.CoreCompileInputs.cache
+C:\Users\jclri\Desktop\C#\ProjetoVendas\VendasConsole\obj\Debug\VendasConsole.exe
+C:\Users\jclri\Desktop\C#\ProjetoVendas\VendasConsole\obj\Debug\VendasConsole.pdb
